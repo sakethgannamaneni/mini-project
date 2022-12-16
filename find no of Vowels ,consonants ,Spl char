@@ -57,7 +57,7 @@ def countCharacterType(str):
                     elif choice == '4':
                         print("Digit=",digit)
                     elif choice=='5':
-                        print("Bye,alvida , adios")
+                        print("THANK YOU")
                         break
                 else:
                         print("Invalid command")
