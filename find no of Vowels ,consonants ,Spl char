@@ -64,5 +64,5 @@ def countCharacterType(str):
             
 
     # Driver function.
-str = input("enter a sentence")
+str = input("enter a sentence:")
 countCharacterType(str)
