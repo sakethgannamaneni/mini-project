@@ -1,3 +1,5 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
 # Python3 Program to count vowels,
     # consonant, digits and special
     # character in a given string.
@@ -14,6 +16,7 @@ def countCharacterType(str):
             consonant = 0
             specialChar = 0
             digit = 0
+            space = 0
 
             # str.length() function to count
             # number of character in given string.
@@ -32,6 +35,8 @@ def countCharacterType(str):
                                     vowels += 1
                             else:
                                     consonant += 1
+                    elif(ch==' '):
+                            space+=1
                     
                     elif (ch >= '0' and ch <= '9'):
                             digit += 1
